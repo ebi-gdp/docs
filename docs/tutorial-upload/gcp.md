@@ -27,11 +27,11 @@ give Globus permission to access the location where your data are (step 3) one t
 
 ### 1. Enter your Globus account identity
 
-![](/img/app-upload/screen-1.png)
+![](/img/web-upload/screen-1.png)
 
 ### 2. View destination collection
 
-![](/img/app-upload/screen-2.png)
+![](/img/web-upload/screen-2.png)
 
 ### 3. Grant Globus permission to access your files
 
