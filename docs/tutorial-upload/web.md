@@ -4,8 +4,12 @@ sidebar_position: 1
 
 # Upload via web browser
 
-* Uploading data via your web browser is suitable for smaller datasets
-* When you upload data this way the transfer is protected with HTTPS encryption
+Uploading data using this method is good if:
+
+* You're uploading smaller datasets (less than tens of gigabytes)
+* You don't want to install a special application to transfer data
+
+The transfer is protected with HTTPS encryption.
 
 ## Step by step guide
 
