@@ -23,6 +23,18 @@ organized in folders, associated with a specific storage gateway.
 * Once Globus Personal Connect is installed, you need to configure preferences to
 give Globus permission to access the location where your data are (step 3) one time only
 
+:::note
+
+The examples below are from a computer running macOS. If you use Linux or
+Windows GCP may look different. Full Globus configuration instructions are
+available for
+[macOS](https://docs.globus.org/how-to/globus-connect-personal-mac/#configuration),
+[Windows](https://docs.globus.org/how-to/globus-connect-personal-windows/#configuration),
+and [Linux](https://docs.globus.org/how-to/globus-connect-personal-linux/)
+users.
+
+:::
+
 ## Step by step guide
 
 ### 1. Enter your Globus account identity
