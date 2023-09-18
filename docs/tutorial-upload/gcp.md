@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+sidebar_label: Globus Personal Connect
 ---
 
 # Upload via Globus Connect Personal
