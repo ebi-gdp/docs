@@ -74,7 +74,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `This documentation is public domain under the CC0.`,
       },
       prism: {
         theme: lightCodeTheme,
