@@ -3,18 +3,35 @@ sidebar_position: 2
 sidebar_label: Globus Personal Connect
 ---
 
-# Upload via Globus Connect Personal
+# Upload genomes with Globus Connect Personal
 
-Uploading data using this method is good if:
+Uploading data with [Globus Connect
+Personal](https://www.globus.org/globus-connect-personal) (GCP) is good if:
 
 * You need to transfer large amounts of data (tens or hundreds of gigabytes)
-* You want to be able to automatically pause and resume your transfer
+* You want to be able to automatically pause and resume your data transfer
+  * This is also useful if you have a poor internet connection
 * You are happy to install a special application to transfer data
+
+In other cases it may be simpler to [upload data using your web browser](web.md).
+
+:::tip
+
+* If you'd like to test the platform we recommend using [small HAPNEST synthetic
+  data](https://drive.google.com/drive/folders/1GsRZFB6V4ifi7PcVtdMX4ZphQgUrDI0n?usp=sharing)
+  
+* The small HAPNEST synthetic data have been tested with the polygenic scores below:
+  * [PGS000882](https://www.pgscatalog.org/score/PGS000882/) (vitamin D
+  measurement)
+  * [PGS001229](https://www.pgscatalog.org/score/PGS001229/)
+  (standing height)
+
+:::
 
 ## Before you start
 
 * You'll need to install [Globus Connect
-Personal](https://www.globus.org/globus-connect-personal) (GCP)
+Personal](https://www.globus.org/globus-connect-personal)
 * Please take note of the owner identity (email address) that you use to log in to
 Globus
   * You'll need to enter this later on the platform

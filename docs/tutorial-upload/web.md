@@ -3,14 +3,31 @@ sidebar_position: 1
 sidebar_label: Browser
 ---
 
-# Upload via web browser
+# Upload genomes with your web browser
 
-Uploading data using this method is good if:
+Uploading with your web browser is good if:
 
 * You're uploading smaller datasets (less than tens of gigabytes)
 * You don't want to install a special application to transfer data
 
-The transfer is protected with HTTPS encryption.
+In other cases it may be better to [upload data with Globus Connect
+Personal](gcp.md).
+
+When uploading data with your web browser the transfer is protected with HTTPS
+encryption to keep your data safe in transit.
+
+:::tip
+
+* If you'd like to test the platform we recommend using [small HAPNEST synthetic
+  data](https://drive.google.com/drive/folders/1GsRZFB6V4ifi7PcVtdMX4ZphQgUrDI0n?usp=sharing)
+  
+* The small HAPNEST synthetic data have been tested with the polygenic scores below:
+  * [PGS000882](https://www.pgscatalog.org/score/PGS000882/) (vitamin D
+  measurement)
+  * [PGS001229](https://www.pgscatalog.org/score/PGS001229/)
+  (standing height)
+
+:::
 
 ## Step by step guide
 
