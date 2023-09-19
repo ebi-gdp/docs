@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 sidebar_label: Globus Personal Connect
+description: How to use Globus Personal Connect to upload data
 ---
 
 # Upload genomes with Globus Connect Personal
