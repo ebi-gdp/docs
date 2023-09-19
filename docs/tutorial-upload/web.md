@@ -18,8 +18,7 @@ encryption to keep your data safe in transit.
 
 :::tip
 
-* If you'd like to test the platform we recommend using [small HAPNEST synthetic
-  data](https://drive.google.com/drive/folders/1GsRZFB6V4ifi7PcVtdMX4ZphQgUrDI0n?usp=sharing)
+* If you'd like to test the platform we recommend using this [small synthetic dataset](https://drive.google.com/drive/folders/1GsRZFB6V4ifi7PcVtdMX4ZphQgUrDI0n?usp=sharing) ([HAPNEST](https://pubmed.ncbi.nlm.nih.gov/37647640/))
   
 * The small HAPNEST synthetic data have been tested with the polygenic scores below:
   * [PGS000882](https://www.pgscatalog.org/score/PGS000882/) (vitamin D
