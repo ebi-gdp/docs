@@ -17,7 +17,7 @@ Personal](https://www.globus.org/globus-connect-personal) (GCP) is good if:
 In other cases it may be simpler to [upload data using your web browser](web.md).
 
 :::tip
-* If you'd like to test the platform we recommend using this [small synthetic dataset](https://drive.google.com/drive/folders/1GsRZFB6V4ifi7PcVtdMX4ZphQgUrDI0n?usp=sharing) ([HAPNEST](https://pubmed.ncbi.nlm.nih.gov/37647640/))
+* If you'd like to test the platform we recommend using this [small synthetic dataset](https://ftp.ebi.ac.uk/pub/databases/spot/intervene/) ([HAPNEST](https://pubmed.ncbi.nlm.nih.gov/37647640/))
   * The synthetic data are genome build version `GRCh38`  
 * The small HAPNEST synthetic data have been tested with the polygenic scores below:
   * [PGS000882](https://www.pgscatalog.org/score/PGS000882/) (vitamin D
