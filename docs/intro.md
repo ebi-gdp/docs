@@ -16,6 +16,8 @@ The INTERVENE platform aims to makes it easy to calculate polygenic risk scores.
 * Please do not upload real genomes to the platform
 * We use synthetic genomes like [HAPNEST](https://pubmed.ncbi.nlm.nih.gov/37647640/) for testing
 * The platform and documentation is **being actively developed and tested**
+* Once submitted, a job may take **several hours** to start running, depending on how many jobs are in the queue
+  * You'll get an email once the job has completed
 
 :::
 
