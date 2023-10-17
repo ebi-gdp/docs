@@ -60,7 +60,7 @@ It's important that input target genomes match the scoring files well. This sect
 ### Score distribution
 
 :::tip
-This density plot is a useful summary of the aggregated polygenic scoring file.
+This density plot is a useful summary of the calculated scores.
 :::
 
 ![](/img/report/report-3.png)
