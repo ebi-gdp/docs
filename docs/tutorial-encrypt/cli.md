@@ -45,7 +45,7 @@ You need Python 3.6 or higher installed on your computer to use the crypt4gh uti
 
 * [View your existing sample sets](https://gcp.intervenegeneticscores.org/pgs-calculator/datasets)
     * If you haven't created a sampleset yet, start [the data upload process](https://gcp.intervenegeneticscores.org/pgs-calculator/dataset)
-    * If you're unsure how to start uploading your data, check out the [data upload tutorial here](/docs/category/upload/)
+    * If you're unsure how to start uploading your data, check out the [data upload tutorial here](/category/upload/)
 * Click "Launch job" to view details about your existing sampleset
 * Download your public key (it will appear in your downloads folder, e.g. `INTD00000000027.pub`)
 
@@ -74,7 +74,7 @@ $ crypt4gh encrypt --recipient_pk ~/Downloads/INTD00000000024.pub < hapnest.psam
 
 ### 4. Continue to upload your encrypted data
 
-You're now ready to [upload your encrypted data](/docs/category/upload).
+You're now ready to [upload your encrypted data](/category/upload/).
 
 
 :::warning
