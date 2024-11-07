@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 sidebar_label: Explanation - PGS Report
 ---
 
@@ -7,7 +7,7 @@ sidebar_label: Explanation - PGS Report
 
 ## View job
 
-When your pipeline job has finished we'll send you an email. 
+When your pipeline job has finished we'll send you an email.
 
 Once you've received the email, you can view your job and select <button name="button">`Download results`</button>:
 
@@ -30,7 +30,7 @@ Three results files are available:
 
 ![](/img/report/download.png)
 
-If you double click the report it should open in your web browser. 
+If you double click the report it should open in your web browser.
 
 :::tip
 * On macOS you may get Error 79 when trying to open the compressed CSV file
@@ -52,7 +52,7 @@ Please remember to cite polygenic score authors and check the license of scores 
 ### Variant matching details
 
 :::tip
-It's important that input target genomes match the scoring files well. This section describes how well your data overlap. 
+It's important that input target genomes match the scoring files well. This section describes how well your data overlap.
 :::
 
 ![](/img/report/report-2.png)
