@@ -57,24 +57,24 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
-        title: 'Platform documentation',
+        title: 'GeneticScores.org documentation',
         logo: {
           alt: 'INTERVENE Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
-            href: 'https://test.intervenegeneticscores.org',
-            label: 'INTERVENE platform',
+            href: 'https://intervenegeneticscores.org/',
+            label: 'GeneticScores.org',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `This documentation is public domain under the CC0.`,
+        copyright: `This documentation is public domain under the CC0. <br /> INTERVENE has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 101016775`,
       },
       prism: {
         theme: lightCodeTheme,
