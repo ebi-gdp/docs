@@ -40,7 +40,7 @@ encryption to keep your data safe in transit.
 To keep your data safe, please follow these [**instructions**](../tutorial-encrypt/cli.md) to encrypt your data using the key and **only** upload encrypted data.
 :::
 
-### 3. View destination collection and upload youe data
+### 3. View destination collection and upload your data
 
 ![](/img/web-upload/screen-3.png)
 
@@ -68,7 +68,7 @@ To keep your data safe, please follow these [**instructions**](../tutorial-encry
 
 ![](/img/web-upload/screen-9.png)
 
-### 10. Contiune to the next step
+### 10. Continue to the next step
 ![](/img/web-upload/screen-10.png)
 
 
@@ -77,8 +77,8 @@ To keep your data safe, please follow these [**instructions**](../tutorial-encry
 ### 1. Go to the `PGS Calculator` page
 ![](/img/web-upload/screen-11.png)
 
-### 2. Find the sample set you want to contiune to upload data
+### 2. Find the sample set you want to continue to upload data
 ![](/img/web-upload/screen-12.png)
 
-### 3. View destination collection and contiune to upload youe data
+### 3. View destination collection and continue to upload your data
 ![](/img/web-upload/screen-13.png)
