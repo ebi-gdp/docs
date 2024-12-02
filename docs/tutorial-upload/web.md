@@ -33,30 +33,52 @@ encryption to keep your data safe in transit.
 
 ![](/img/web-upload/screen-1.png)
 
-### 2. View destination collection
-
+### 2. Download the public encryption key and encrypt your data
 ![](/img/web-upload/screen-2.png)
 
-### 3. Select web upload
+:::info
+To keep your data safe, please follow these [**instructions**](../tutorial-encrypt/cli.md) to encrypt your data using the key and **only** upload encrypted data.
+:::
+
+### 3. View destination collection and upload your data
 
 ![](/img/web-upload/screen-3.png)
 
-### 4. Grant permission to Globus web application
+### 4. Select web upload
 
 ![](/img/web-upload/screen-4.png)
 
-### 5. Select files to upload
+### 5. Grant permission to Globus web application
 
 ![](/img/web-upload/screen-5.png)
 
-### 6. Wait for files to upload
+### 6. Select files to upload
 
 ![](/img/web-upload/screen-6.png)
 
-### 7. Uploads complete
+### 7. Wait for files to upload
 
 ![](/img/web-upload/screen-7.png)
 
-### 8. Check all files are in destination collection
+### 8. Uploads complete
 
 ![](/img/web-upload/screen-8.png)
+
+### 9. Check all files are in destination collection
+
+![](/img/web-upload/screen-9.png)
+
+### 10. Continue to the next step
+![](/img/web-upload/screen-10.png)
+
+
+## How to resume data upload if you accidentally exit the Globus upload page
+
+### 1. Go to the `PGS Calculator` page
+![](/img/web-upload/screen-11.png)
+
+### 2. Find the sample set you want to continue to upload data
+![](/img/web-upload/screen-12.png)
+
+### 3. View destination collection and continue to upload your data
+![](/img/web-upload/screen-13.png)
