@@ -11,15 +11,15 @@ const config = {
   //favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.intervenegeneticscores.org',
+  url: 'https://docs.geneticscores.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ebi-gdp', // Usually your GitHub org/user name.
-  projectName: 'platform-docs', // Usually your repo name.
+  // organizationName: 'ebi-gdp', // Usually your GitHub org/user name.
+  // projectName: 'platform-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -67,7 +67,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://intervenegeneticscores.org/',
+            href: 'https://geneticscores.org/',
             label: 'GeneticScores.org',
             position: 'right',
           },
