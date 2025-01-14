@@ -44,6 +44,7 @@ If you double click the report it should open in your web browser.
 
 This section provides a high level overview of the report structure. The report is explained in more detail [in the PGS Catalog Calculator documentation](https://pgsc-calc.readthedocs.io/en/latest/explanation/output.html#report)
 
+An example report generated from synthetic test data [is available here.](pathname:///files/test_report.html)
 
 ### Scoring file metadata
 
