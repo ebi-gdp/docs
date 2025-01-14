@@ -48,7 +48,7 @@ A report describing:
 * How well variants matched target genomes
 * Example PGS distributions if enough samples are present
 
-[An explanation of the output report is available here.](report.md) The report is a HTML file that [opens in your web browser.](/files/test_report.html)
+[An explanation of the output report is available here.](report.md) The report is a HTML file that [opens in your web browser.](pathname:///files/test_report.html)
 
 
 :::note
