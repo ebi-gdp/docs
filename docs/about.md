@@ -48,7 +48,15 @@ A report describing:
 * How well variants matched target genomes
 * Example PGS distributions if enough samples are present
 
-[An example report is available here.](report.md)
+[An explanation of the output report is available here.](report.md) The report is a HTML file that [opens in your web browser.](/files/test_report.html)
+
+
+:::note
+
+Although the PGS Catalog Calculator supports genetic ancestry similarity analysis, `GeneticScores.org` does not support this currently.
+
+:::
+
 
 ## What is the process?
 

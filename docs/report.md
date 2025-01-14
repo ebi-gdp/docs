@@ -41,6 +41,10 @@ If you double click the report it should open in your web browser.
 
 ## Report structure
 
+
+This section provides a high level overview of the report structure. The report is explained in more detail [in the PGS Catalog Calculator documentation](https://pgsc-calc.readthedocs.io/en/latest/explanation/output.html#report)
+
+
 ### Scoring file metadata
 
 :::tip
