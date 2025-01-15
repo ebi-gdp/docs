@@ -19,7 +19,7 @@ Once you've received the email, you can view your job and select <button name="b
 
 ## Why have my results disappeared?
 
-Rsults are only stored on your `GeneticScores.org` account for about 2 weeks after a job finishes.
+Results are only stored on your `GeneticScores.org` account for about 2 weeks after a job finishes.
 
 After this any results are automatically deleted to help keep your data safe.
 
