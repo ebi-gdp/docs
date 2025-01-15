@@ -23,7 +23,7 @@ const config = {
   // projectName: 'platform-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -32,6 +32,8 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  stylesheets: ['https://assets.emblstatic.net/vf/v2.5.20/css/styles.css'],
 
   presets: [
     [
