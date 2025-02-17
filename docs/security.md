@@ -47,8 +47,6 @@ The key points of `GeneticScores.org` security strategy are:
   * Encryption keys expire after two weeks after creation (they are deleted by automated processes), which renders your data unreadable. The encrypted data is also automatically deleted after two weeks.
 * Users may choose to delete their data at any time.
 
-`GeneticScores.org` has a defined protocol defining the response in the event of a security breach.
-
 The security measures implemented by our data sub-processor, Google Cloud Platform are outlined in [Appendix 2 of the Cloud Data Processing Addendum.](https://cloud.google.com/terms/data-processing-addendum?hl=en)
 
 ## Appendix 1

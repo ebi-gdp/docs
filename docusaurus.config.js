@@ -7,7 +7,7 @@ const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'INTERVENE platform documentation',
+  title: 'GeneticScores.org platform documentation',
   //tagline: 'Dinosaurs are cool',
   //favicon: 'img/favicon.ico',
 
