@@ -99,7 +99,7 @@ export default function Footer(props) {
 
         <section class="vf-footer__legal">
           <span class="vf-footer__legal-text">
-            Current release version: <code class="">0.1</code>.  <a href="/posts" class="vf-footer__link">Release log.</a>
+            Current release version: <code class="">0.1</code>.  <a href="https://geneticscores.org/posts" class="vf-footer__link">Release log.</a>
           </span>
         </section>
 
