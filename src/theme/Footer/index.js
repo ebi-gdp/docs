@@ -42,11 +42,11 @@ export default function Footer(props) {
               </li>
 
               <li class="vf-list__item">
-                <a class="vf-list__link" href="http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-analysis-service">Privacy Notice</a>
+                <a class="vf-list__link" href="http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-analysis-service">Privacy notice</a>
               </li>
 
               <li class="vf-list__item">
-                <a class="vf-list__link" href="https://docs.geneticscores.org/dataprocessing">Data Processing</a>
+                <a class="vf-list__link" href="https://docs.geneticscores.org/dataprocessing">Data processing</a>
               </li>
 
               <li class="vf-list__item">
