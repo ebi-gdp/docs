@@ -5,13 +5,7 @@ sidebar_label: Data processing
 
 # Data processing
 
-We collect information about who is interacting with the system so we can monitor and improve our services. Details about the data we collect can be found in our data privacy notices:
-
-* http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-analysis-service
-* http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-public-website
-* http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-helpdesk
-* http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-announce
-
+We collect information about who is interacting with the system so we can monitor and improve our services. Details about the data we collect can be found in our data privacy notices, which depends on your activities on our site. For example, browsing [our public website](http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-public-website), logging in to use the [polygenic score calculation service](http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-analysis-service), contacting [our helpdesk](http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-helpdesk), or signing up to [receive announcement emails](http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-announce).
 
 If you choose to upload genetic data to use our [calculation service](https://calculate.geneticscores.org), you must first consent to our [Data Processing Agreement](dpa.md). In this case we temporarily store the genetic data you upload (see Data Retention Section). The calculation service runs the PGS Catalog Calculator (pgsc_calc) on your data, an overview of the service is [provided here](https://docs.geneticscores.org), full documentation of the [pipeline here](https://pgsc-calc.readthedocs.io/en/latest/), and the [code here](https://github.com/pgscatalog/pgsc_calc?tab=readme-ov-file).
 
@@ -26,7 +20,6 @@ Server and application logs are retained for at most 60 days.
 Genetic data is automatically deleted using a two stage approach. Datasets have an expiration date (set to 14 days after creation). When the expiration date passes the unique key pair that we hold is automatically deleted, which renders your data unreadable.  Secondly, expired datasets are regularly deleted.
 
 You can also choose to delete your dataset at any time before the expiration date on the datasets dashboard.
-
 
 ## Contact us
 
