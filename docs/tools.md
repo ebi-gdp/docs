@@ -21,4 +21,10 @@ When users upload target genomes to the `GeneticScores.org` calculation service 
 
 ## `pgsc_benchmark`
 
-[The pgsc_benchmark tool](https://github.com/PGScatalog/pgsc_benchmark) aims to facilitate the widespread performance benchmarking of polygenic scores curated in the PGS Catalog. It has been designed to run directly on the output files produced by the PGS Catalog Calculator, providing a reproducible method for evaluating score performance. Users are able to run the tool using their own study cohorts and phenotype data, generating a consistent and directly comparable set of performance metrics across all desired PGS.
+:::note
+
+This tool is currently under development and is not yet publicly available.
+
+:::
+
+The pgsc_benchmark tool aims to facilitate the widespread performance benchmarking of polygenic scores curated in the PGS Catalog. It has been designed to run directly on the output files produced by the PGS Catalog Calculator, providing a reproducible method for evaluating score performance. Users are able to run the tool using their own study cohorts and phenotype data, generating a consistent and directly comparable set of performance metrics across all desired PGS.
