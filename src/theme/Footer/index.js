@@ -72,10 +72,6 @@ export default function Footer(props) {
               </li>
 
               <li class="vf-list__item">
-                <a class="vf-list__link" href="https://github.com/ebi-gdp">GitHub</a>
-              </li>
-
-              <li class="vf-list__item">
                 <a class="vf-list__link" href="https://www.interveneproject.eu/">INTERVENE</a>
               </li>
 
