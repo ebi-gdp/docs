@@ -88,3 +88,19 @@ users.
 ### 8. Check if your files have uploaded
 
 ![](/img/app-upload/screen-11.png)
+
+## Globus Connect Personal Troubleshooting
+
+For any issues encountered while transferring data using the Globus Connect Personal (GCP) app, we recommend first consulting the official Globus documentation: [Globus Connect Personal Troubleshooting Guide](https://docs.globus.org/globus-connect-personal/troubleshooting-guide/#troubleshooting_problems_accessing_a_file_directory_or_removable_drive) for possible solutions.
+
+Additionally, if you find that your collection is classified as a **High Assurance Collection** and you are unable to transfer data to the collection we created for you, we provide the following solution:
+
+* If you encounter a transfer issue due to the High Assurance setting (as shown in the figure):
+  ![](/img/app-upload/screen-12.png)
+1. Delete the existing Globus Connect Personal (GCP) configuration
+  ![](/img/app-upload/screen-13.png)
+
+2. Re-login and create a new local collection
+  
+  * When setting up the new collection, ensure that the High Assurance option is **NOT** selected.
+  ![](/img/app-upload/screen-14.png)
