@@ -6,6 +6,67 @@ description: How to use the crypt4gh GUI to encrypt data
 
 # Encrypt your data with the crypt4gh GUI
 
+**You must encrypt your data if you want to use the PGS calculation service**.
+
+Encrypting your data on your computer before uploading it is important to keep your data safe.
+
 :::tip
-There's nothing here yet!
+Users that prefer to work with terminals and CLIs might prefer to use the [`crypt4gh`](./cli) python package
+:::
+
+## Step by step guide
+
+### 1. Install crypt4gh-gui
+
+* Navigate to the [crypt4gh-gui repository](https://github.com/CSCfi/crypt4gh-gui)
+* Select the most recent release
+
+![](/img/crypt4gh-gui/releases.png)
+
+* Download the release for your platform (Linux, macOS, or Windows)
+* Extract the archive and open the executable file
+
+:::note
+* macOS users may get a warning that the executable file is not verified
+* Many open source applications like `crypt4gh-gui` are unsigned and will trigger this warning
+* To bypass the warning you must open Privacy & Security in the settings menu, then scroll to the bottom and select "open anyway"
+:::
+
+
+### 2. Download your unique public key from the platform
+
+* [View your existing sample sets](https://gcp.intervenegeneticscores.org/pgs-calculator/datasets)
+    * If you haven't created a sampleset yet, start [the data upload process](https://gcp.intervenegeneticscores.org/pgs-calculator/dataset)
+    * If you're unsure how to start uploading your data, check out the [data upload tutorial here](/category/upload/)
+* Click "Launch job" to view details about your existing sampleset
+* Download your public key (it will appear in your downloads folder, e.g. `INTD00000000027.pub`)
+
+:::tip
+* Each public key has a linked secret key, which we store securely on the platform
+* We use the secret key to temporarily decrypt your data and calculate PGS when you submit jobs
+* The secret key automatically expires 2 weeks after it's created to keep your data safe
+* Any encrypted data with an expired secret key cannot be decrypted and are automatically deleted on the platform
+* You'll need to restart the data encryption process with a new public key if more than 2 weeks have passed since you started the data upload process
+:::
+
+
+### 3. Load the public key
+
+![](/img/crypt4gh-gui/loadkey.png)
+
+### 3. Select the file you want to encrypt
+
+![](/img/crypt4gh-gui/selectfile.png)
+
+### 4. Encrypt the file
+
+![](/img/crypt4gh-gui/encrypt.png)
+
+### 4. Continue to upload your encrypted data
+
+You're now ready to [upload your encrypted data](/category/upload/).
+
+:::warning
+* **Always** encrypt your data, even if the data are not sensitive and publicly available (e.g. 1000 Genomes)
+* If you submit jobs using unencrypted data, they will always fail after some time
 :::
