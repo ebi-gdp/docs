@@ -9,7 +9,7 @@ If you'd like to test the platform, we recommend using the [small HAPNEST datase
 
 ## Synthetic HAPNEST data
 
-Synthetic genomes don't contain any private or sensitive information but are compatible with bioinformatics tools like our platform. 
+Synthetic genomes don't contain any private or sensitive information but are compatible with bioinformatics tools like our platform.
 
 A copy of the small HAPNEST dataset is available to download from:
 
@@ -23,7 +23,11 @@ There are three files to download:
 
 This triplet of files contains genotypes (`.pgen`), variants (`.pvar`), and sample data (`.psam`) in [PLINK 2 format](https://www.cog-genomics.org/plink/2.0/).
 
-When you work with these files it's important to keep all of the files together. 
+When you work with these files it's important to keep all of the files together.
+
+:::tip
+These genomes are in genome build **GRCh38**.
+:::
 
 ## Other genomes
 
