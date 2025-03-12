@@ -65,3 +65,7 @@ The security measures implemented by our data sub-processor, Google Cloud Platfo
 
 * Control Objective 6: Implement technology safeguards to promptly detect the failure to attain the above control objectives and to respond with proper countermeasures.
 
+## Contact us
+
+If you wish to report a potential vulnerability or security concern, or have any other queries, please get in touch with us at intervene-helpdesk@ebi.ac.uk
+
