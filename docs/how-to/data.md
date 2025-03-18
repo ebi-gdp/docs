@@ -1,9 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: Example genomic data
----
-
-# Testing the platform with example genomes
+# How to test the platform with small synthetic genomes
 
 If you'd like to test the platform, we recommend using the [small HAPNEST dataset](https://pubmed.ncbi.nlm.nih.gov/37647640/).
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-sidebar_label: Explanation - PGS Report
+sidebar_label: PGS Report
 ---
 
 # Results explanation
