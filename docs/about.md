@@ -9,7 +9,7 @@ slug: /
 :::caution
 
 * This service is not yet suitable for sensitive data. Do not upload private genomes to the platform.
-* You can use [publicly available or synthetic genomes for testing](./data)
+* You can use [publicly available or synthetic genomes for testing](./how-to/data.md)
 
 :::
 
@@ -48,7 +48,7 @@ A report describing:
 * How well variants matched target genomes
 * Example PGS distributions if enough samples are present
 
-[An explanation of the output report is available here.](report.md) The report is a HTML file that [opens in your web browser.](pathname:///files/test_report.html)
+[An explanation of the output report is available here.](explain/report.md) The report is a HTML file that [opens in your web browser.](pathname:///files/test_report.html)
 
 
 :::note
@@ -72,7 +72,7 @@ Although the PGS Catalog Calculator supports genetic ancestry similarity analysi
   * You can select scores by trait, publication or PGS Catalog ID
   * You can modify pipeline parameters if you wish
   Details
-* You initiate the analysis and [wait for your results](report.md)
+* You initiate the analysis and [wait for your results](explain/report.md)
 
 ## How long does it take?
 

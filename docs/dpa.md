@@ -10,7 +10,7 @@ To use the [genetic scoring service](https://calculate.geneticscores.org) you mu
 :::caution
 
 * This service is not yet suitable for sensitive data. Do not upload private genomes to the platform.
-* You can use [publicly available or synthetic genomes for testing](./data)
+* You can use [publicly available or synthetic genomes for testing](how-to/data.md)
 * When the service is suitable for processing senstiive data the a copy of the DPA will be available below
 
 :::
