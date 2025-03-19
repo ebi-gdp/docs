@@ -1,5 +1,4 @@
 ---
-sidebar_position: 1
 sidebar_label: crypt4gh CLI
 description: How to use the crypt4gh CLI to encrypt data
 ---

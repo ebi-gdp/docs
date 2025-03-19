@@ -1,5 +1,4 @@
 ---
-sidebar_position: 1
 sidebar_label: Browser
 description: How to use your web browser to upload data
 ---

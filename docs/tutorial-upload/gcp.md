@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 sidebar_label: Globus Connect Personal
 description: How to use Globus Connect Personal to upload data
 ---

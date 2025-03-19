@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 sidebar_label: crypt4gh GUI
 description: How to use the crypt4gh GUI to encrypt data
 ---
