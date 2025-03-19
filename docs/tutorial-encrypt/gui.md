@@ -6,9 +6,11 @@ description: How to use the crypt4gh GUI to encrypt data
 
 # Encrypt your data with the crypt4gh GUI
 
-**You must encrypt your data if you want to use the PGS calculation service**.
+Encrypting your data with the crypt4gh graphical user interface (GUI) is good when:
 
-Encrypting your data on your computer before uploading it is important to keep your data safe.
+* You don't want to use a terminal
+
+**You must encrypt your data if you want to use the PGS calculation service**.
 
 :::tip
 Users that prefer to work with terminals and CLIs might prefer to use the [`crypt4gh`](./cli) python package
