@@ -1,6 +1,6 @@
 ---
-sidebar_position: 8
-sidebar_label: Data processing
+aliases:
+  - /dataprocessing
 ---
 
 # Data processing

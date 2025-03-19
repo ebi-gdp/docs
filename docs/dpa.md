@@ -1,6 +1,6 @@
 ---
-sidebar_position: 9
-sidebar_label: Data processing agreement
+aliases:
+  - /dpa
 ---
 
 # Data Processing Agreement (DPA)
