@@ -6,7 +6,7 @@ description: How to use your web browser to upload data
 
 # Upload genomes with your web browser
 
-Uploading with your web browser is good if:
+Upload genomes with your web browser is good if:
 
 * You're uploading smaller datasets (less than tens of gigabytes)
 * You don't want to install a special application to transfer data
@@ -19,7 +19,7 @@ encryption to keep your data safe in transit.
 
 :::tip
 * If you'd like to test the platform we recommend using this [small synthetic dataset](https://ftp.ebi.ac.uk/pub/databases/spot/intervene/) ([HAPNEST](https://pubmed.ncbi.nlm.nih.gov/37647640/))
-  * The synthetic data are genome build version `GRCh38`  
+  * The synthetic data are genome build version `GRCh38`
 * The small HAPNEST synthetic data have been tested with the polygenic scores below:
   * [PGS000882](https://www.pgscatalog.org/score/PGS000882/) (vitamin D
   measurement)
