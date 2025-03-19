@@ -21,7 +21,9 @@ This triplet of files contains genotypes (`.pgen`), variants (`.pvar`), and samp
 When you work with these files it's important to keep all of the files together.
 
 :::tip
-These genomes are in genome build **GRCh38**.
+* These genomes are in genome build **GRCh38**.
+* Not all scores will work on the small HAPNEST dataset.
+* For testing these selections will work : scores PGS001994,PGS000006, traits 'Abnormality of the eye'/HP_0000478 or 'estrogen-receptor negative breast cancer'/EFO_1000650, publication PGP000002
 :::
 
 ## Other genomes
