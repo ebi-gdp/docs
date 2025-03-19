@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
-sidebar_label: Globus Personal Connect
-description: How to use Globus Personal Connect to upload data
+sidebar_label: Globus Connect Personal
+description: How to use Globus Connect Personal to upload data
 ---
 
 # Upload genomes with Globus Connect Personal
@@ -18,7 +18,7 @@ In other cases it may be simpler to [upload data using your web browser](web.md)
 
 :::tip
 * If you'd like to test the platform we recommend using this [small synthetic dataset](https://ftp.ebi.ac.uk/pub/databases/spot/intervene/) ([HAPNEST](https://pubmed.ncbi.nlm.nih.gov/37647640/))
-  * The synthetic data are genome build version `GRCh38`  
+  * The synthetic data are genome build version `GRCh38`
 * The small HAPNEST synthetic data have been tested with the polygenic scores below:
   * [PGS000882](https://www.pgscatalog.org/score/PGS000882/) (vitamin D
   measurement)
@@ -36,7 +36,7 @@ Globus
 * In Globus terminology a collection is a named set of files, hierarchically
 organized in folders, associated with a specific storage gateway.
   * Practically speaking this is your computer
-* Once Globus Personal Connect is installed, you need to configure preferences to
+* Once Globus Connect Personal is installed, you need to configure preferences to
 give Globus permission to access the location where your data are (step 3) one time only
 
 :::note
@@ -101,6 +101,6 @@ Additionally, if you find that your collection is classified as a **High Assuran
   ![](/img/app-upload/screen-13.png)
 
 2. Re-login and create a new local collection
-  
+
   * When setting up the new collection, ensure that the High Assurance option is **NOT** selected.
   ![](/img/app-upload/screen-14.png)
