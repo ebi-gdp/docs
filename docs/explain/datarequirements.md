@@ -1,3 +1,7 @@
+---
+sidebar_label: "Genomic data requirements and recommendations"
+---
+
 # Preparing your target genomes
 
 ## Data requirements

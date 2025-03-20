@@ -1,3 +1,7 @@
+---
+sidebar_label: "Genomic data encryption (Cryp4GH)"
+---
+
 # Crypt4GH encryption
 
 * You [must use crypt4gh](/category/encrypt/) to encrypt your data before you send it to us for processing

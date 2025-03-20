@@ -1,8 +1,4 @@
----
-sidebar_label: PGS Report
----
-
-# Results explanation
+# Results report
 
 ## View job
 

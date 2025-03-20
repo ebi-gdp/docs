@@ -1,4 +1,4 @@
-# Recommended use cases
+# Recommended uses
 
 GeneticScores.org is intended for use in a research setting, it has not been developed for, nor is it suitable for clinical or personal use.
 

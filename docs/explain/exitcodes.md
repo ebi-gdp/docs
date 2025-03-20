@@ -1,4 +1,4 @@
-# Error codes
+# Job error codes
 
 If your workflow exits with an error the exit code will be included in your notification email.
 

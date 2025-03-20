@@ -59,19 +59,7 @@ Although the PGS Catalog Calculator supports genetic ancestry similarity analysi
 
 ## What is the process?
 
-* You log in
-  * We use the Life Sciences AAI so you can use your institutional log in or other single sign in providers (e.g. Google, ORCID) to log in
-* You agree to our terms of use and sign a data processing agreement
-* You encrypt your target genomes [using crypt4gh and a unique public key we make for you](category/encrypt)
-* You upload your encrypted [target genomes to us via secure transfer](category/upload)
-  * We use Globus to transfer data securely from your system to ours. To do this you need to download Globus Personal Connect onto your local machine
-  * You must upload encrypted data only. You must encrypt your data using Crypt4GH.
-* You tell us the genome build of your target genomes
-* You select PGS Catalog polygenic scores to apply to your target genomes
-  * You can select scores by trait, publication or PGS Catalog ID
-  * You can modify pipeline parameters if you wish
-  Details
-* You initiate the analysis and [wait for your results](explain/report.md)
+See our [getting started guide](gettingstarted.md).
 
 ## How long does it take?
 

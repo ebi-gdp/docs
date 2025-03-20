@@ -17,13 +17,7 @@ When uploading data with your web browser the transfer is protected with HTTPS
 encryption to keep your data safe in transit.
 
 :::tip
-* If you'd like to test the platform we recommend using this [small synthetic dataset](https://ftp.ebi.ac.uk/pub/databases/spot/intervene/) ([HAPNEST](https://pubmed.ncbi.nlm.nih.gov/37647640/))
-  * The synthetic data are genome build version `GRCh38`
-* The small HAPNEST synthetic data have been tested with the polygenic scores below:
-  * [PGS000882](https://www.pgscatalog.org/score/PGS000882/) (vitamin D
-  measurement)
-  * [PGS001229](https://www.pgscatalog.org/score/PGS001229/)
-  (standing height)
+* If you'd like to test the platform we recommend using a [small synthetic dataset](../data.md) we provide
 :::
 
 ## Step by step guide
@@ -36,7 +30,7 @@ encryption to keep your data safe in transit.
 ![](/img/web-upload/screen-2.png)
 
 :::info
-To keep your data safe, please follow these [**instructions**](../tutorial-encrypt/cli.md) to encrypt your data using the key and **only** upload encrypted data.
+To keep your data safe, please follow these [**instructions**](./../../category/encrypt/) to encrypt your data using the key and **only** upload encrypted data.
 :::
 
 ### 3. View destination collection and upload your data
