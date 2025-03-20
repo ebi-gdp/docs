@@ -1,6 +1,11 @@
-# Job error codes
+# Pipeline error codes
 
-If your workflow exits with an error the exit code will be included in your notification email.
+If your pipeline workflow exits with an error the exit code will be included in your notification email.
+
+The most common type of error is a match rate error. Making sure your target genomes are [imputed and in the correct genome build](https://pgsc-calc.readthedocs.io/en/latest/explanation/match.html) normally fixes this problem.
+
+If you submit a pipeline with more than one score: if any one score runs successfully the pipeline will succeed and you will recieve results and report. Consult the report to assess which of the scores ran successfully and which did not.
+
 
 ## Exit code table
 
@@ -20,7 +25,7 @@ If your workflow exits with an error the exit code will be included in your noti
 | 19        | GenomesNotFound        | Target genomes could not be found                                                    |
 | 20        | SamplesheetFormatError | There was a problem with the structure of the input metadata                         |
 
-The most common type of error is a match rate error. Making sure your target genomes are [imputed and in the correct genome build](https://pgsc-calc.readthedocs.io/en/latest/explanation/match.html) normally fixes this problem.
+
 
 ## What next?
 
