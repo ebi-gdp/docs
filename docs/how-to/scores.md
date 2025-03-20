@@ -1,4 +1,4 @@
-# Choosing which polygenic scores to calculate
+# Select polygenic scores
 
 The polygenic scores you can calculate using this service are sourced directly from the [PGS Catalog](https://pgscatalog.org). You can select the scores in three ways, by trait, by publication or by PGS ID.
 
