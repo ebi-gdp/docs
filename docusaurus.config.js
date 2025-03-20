@@ -87,6 +87,11 @@ const config = {
         theme: lightTheme,
         darkTheme: darkTheme,
       },
+      algolia: {
+        appId: "4VPGQL1YGO",
+        apiKey: "3616eb48f0194e39db6278804a38bde6",
+        indexName: "geneticscores"
+      }
     }),
 };
 
