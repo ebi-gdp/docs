@@ -8,6 +8,7 @@ description: How to use the crypt4gh GUI to encrypt data
 Encrypting your data with the crypt4gh graphical user interface (GUI) is good when:
 
 * You don't want to use a terminal
+* You are testing the platform. Note the GUI can only encrypt one file at a time.
 
 **You must encrypt your data if you want to use the PGS calculation service**.
 
@@ -43,7 +44,7 @@ Users that prefer to work with terminals and CLIs might prefer to use the [`cryp
 * Download your public key (it will appear in your downloads folder, e.g. `INTD00000000027.pub`)
 
 :::tip
-* Each public key has a linked secret key, which we store securely on the platform
+* Each public key has a linked secret 'private' key, which we store securely on the platform
 * We use the secret key to temporarily decrypt your data and calculate PGS when you submit jobs
 * The secret key automatically expires 2 weeks after it's created to keep your data safe
 * Any encrypted data with an expired secret key cannot be decrypted and are automatically deleted on the platform
