@@ -1,5 +1,5 @@
 ---
-sidebar_label: Browser
+sidebar_label: Globus Web Browser
 description: How to use your web browser to upload data
 ---
 
@@ -10,8 +10,8 @@ Upload genomes with your web browser is good if:
 * You're uploading smaller datasets (less than tens of gigabytes)
 * You don't want to install a special application to transfer data
 
-In other cases it may be better to [upload data with Globus Connect
-Personal](gcp.md).
+In other cases it may be better to [upload data with the Globus Connect
+Personal application](gcp.md).
 
 When uploading data with your web browser the transfer is protected with HTTPS
 encryption to keep your data safe in transit.
