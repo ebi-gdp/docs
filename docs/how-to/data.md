@@ -1,4 +1,4 @@
-# How to test the platform with small synthetic genomes
+# Test the platform with small synthetic genomes
 
 If you'd like to test the platform, we recommend using the [small HAPNEST dataset](https://pubmed.ncbi.nlm.nih.gov/37647640/).
 
@@ -22,8 +22,8 @@ When you work with these files it's important to keep all of the files together.
 
 :::tip
 * These genomes are in genome build **GRCh38**.
-* Not all scores will work on the small HAPNEST dataset.
-* For testing these selections will work : scores PGS001994,PGS000006, traits 'Abnormality of the eye'/HP_0000478 or 'estrogen-receptor negative breast cancer'/EFO_1000650, publication PGP000002
+* Not all scores will work on the small HAPNEST dataset. Due to the low number of variants in the small dataset many scores will fail to pass the matching threshold.
+* For testing the platform these selections will produce results : scores PGS001994,PGS000006; traits 'Abnormality of the eye'/HP_0000478 or 'estrogen-receptor negative breast cancer'/EFO_1000650; publication PGP000002
 :::
 
 ## Other genomes
@@ -31,7 +31,7 @@ When you work with these files it's important to keep all of the files together.
 :::caution
 
 * Please do not upload sensitive data - like real sequenced genomes - to the platform
-* It's OK to upload publicly available and permissively licensed data, like [1000 Genomes](https://www.cog-genomics.org/plink/2.0/resources)
-* The platform and documentation is being **actively developed and tested** so things might go wrong when you submit jobs
+* It's OK to upload publicly available and permissively licensed data, like [1000 Genomes](https://www.cog-genomics.org/plink/2.0/resources). Read more about [publicly available and synthetic genomes](https://methods.geneticscores.org/tutorials/synthetic.html), including the large HAPNEST dataset.
+* The platform and documentation is being **actively developed and tested.**
 
 :::
