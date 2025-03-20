@@ -1,9 +1,0 @@
-{
-  "label": "Tutorial - Data encryption",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "slug": "/category/encrypt",
-    "description": "Guides to encrypting sensitive data."
-  }
-}

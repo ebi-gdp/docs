@@ -1,5 +1,4 @@
 ---
-sidebar_position: 1
 slug: /
 ---
 
@@ -9,7 +8,7 @@ slug: /
 :::caution
 
 * This service is not yet suitable for sensitive data. Do not upload private genomes to the platform.
-* You can use [publicly available or synthetic genomes for testing](./data)
+* You can use [publicly available or synthetic genomes for testing](./how-to/data.md)
 
 :::
 
@@ -48,23 +47,19 @@ A report describing:
 * How well variants matched target genomes
 * Example PGS distributions if enough samples are present
 
-[An example report is available here.](report.md)
+[An explanation of the output report is available here.](explain/report.md) The report is a HTML file that [opens in your web browser.](pathname:///files/test_report.html)
+
+
+:::note
+
+Although the PGS Catalog Calculator supports genetic ancestry similarity analysis, `GeneticScores.org` does not support this currently.
+
+:::
+
 
 ## What is the process?
 
-* You log in
-  * We use the Life Sciences AAI so you can use your institutional log in or other single sign in providers (e.g. Google, ORCID) to log in
-* You agree to our terms of use and sign a data processing agreement
-* You encrypt your target genomes [using crypt4gh and a unique public key we make for you](category/encrypt)
-* You upload your encrypted [target genomes to us via secure transfer](category/upload)
-  * We use Globus to transfer data securely from your system to ours. To do this you need to download Globus Personal Connect onto your local machine
-  * You must upload encrypted data only. You must encrypt your data using Crypt4GH.
-* You tell us the genome build of your target genomes
-* You select PGS Catalog polygenic scores to apply to your target genomes
-  * You can select scores by trait, publication or PGS Catalog ID
-  * You can modify pipeline parameters if you wish
-  Details
-* You initiate the analysis and [wait for your results](report.md)
+See our [getting started guide](gettingstarted.md).
 
 ## How long does it take?
 

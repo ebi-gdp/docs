@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+> [!NOTE]
+> * Images are stored in this repository using [git lfs](https://git-lfs.com/).
+> * You'll need to install `git lfs` to clone the repository and build the site.
+
 ### Installation
 
 ```

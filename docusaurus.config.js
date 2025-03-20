@@ -1,28 +1,29 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightTheme = themes.github;
+const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'INTERVENE platform documentation',
+  title: 'GeneticScores.org platform documentation',
   //tagline: 'Dinosaurs are cool',
   //favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.intervenegeneticscores.org',
+  url: 'https://docs.geneticscores.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ebi-gdp', // Usually your GitHub org/user name.
-  projectName: 'platform-docs', // Usually your repo name.
+  // organizationName: 'ebi-gdp', // Usually your GitHub org/user name.
+  // projectName: 'platform-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -31,6 +32,8 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  stylesheets: ['https://assets.emblstatic.net/vf/v2.5.20/css/styles.css'],
 
   presets: [
     [
@@ -50,6 +53,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-9NL8X076KX',
+        },
       }),
     ],
   ],
@@ -67,7 +73,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://intervenegeneticscores.org/',
+            href: 'https://geneticscores.org/',
             label: 'GeneticScores.org',
             position: 'right',
           },
@@ -78,9 +84,14 @@ const config = {
         copyright: `This documentation is public domain under the CC0. <br /> INTERVENE has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 101016775`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: lightTheme,
+        darkTheme: darkTheme,
       },
+      algolia: {
+        appId: "4VPGQL1YGO",
+        apiKey: "3616eb48f0194e39db6278804a38bde6",
+        indexName: "geneticscores"
+      }
     }),
 };
 

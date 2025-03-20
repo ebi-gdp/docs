@@ -1,9 +1,4 @@
----
-sidebar_position: 5
-sidebar_label: Explanation - PGS Report
----
-
-# Results explanation
+# Results report
 
 ## View job
 
@@ -17,6 +12,11 @@ Once you've received the email, you can view your job and select <button name="b
 * If your job has failed (status: "Error") you won't be able to download any results
 :::
 
+## Why have my results disappeared?
+
+Results are only stored on your `GeneticScores.org` account for about 2 weeks after a job finishes.
+
+After this any results are automatically deleted to help keep your data safe.
 
 ---
 
@@ -40,6 +40,11 @@ If you double click the report it should open in your web browser.
 ---
 
 ## Report structure
+
+
+This section provides a high level overview of the report structure. The report is explained in more detail [in the PGS Catalog Calculator documentation](https://pgsc-calc.readthedocs.io/en/latest/explanation/output.html#report)
+
+An example report generated from synthetic test data [is available here.](pathname:///files/test_report.html)
 
 ### Scoring file metadata
 
