@@ -1,6 +1,6 @@
 # Getting started
 
-## Overview
+## Overview of the GeneticScores.org Calculation Service
 
 ![](/img/overview.png)
 
