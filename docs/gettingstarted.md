@@ -6,7 +6,7 @@
 
 ## Before you get started
 
-* Make sure your target genomes meet [our data requirements and suggestions](explain/preparetarget)
+* Make sure your target genomes meet [our data requirements and suggestions](explain/datarequirements)
 
 ## Agree to our terms of use and sign a data processing agreement
 

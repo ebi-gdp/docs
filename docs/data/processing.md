@@ -1,8 +1,3 @@
----
-aliases:
-  - /dataprocessing
----
-
 # Data processing
 
 We collect information about who is interacting with the system so we can monitor and improve our services. Details about the data we collect can be found in our data privacy notices, which depends on your activities on our site. For example, browsing [our public website](http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-public-website), logging in to use the [polygenic score calculation service](http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-analysis-service), contacting [our helpdesk](http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-helpdesk), or signing up to [receive announcement emails](http://www.ebi.ac.uk/data-protection/privacy-notice/geneticscoresorg-announce).

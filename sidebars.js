@@ -79,7 +79,7 @@ module.exports = {
         description: "How we process your data and keep it safe.",
       },
       items: [
-        'data/dataprocessing',
+        'data/processing',
         'data/dpa',
         'data/security',
       ],
