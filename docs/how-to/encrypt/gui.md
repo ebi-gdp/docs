@@ -55,15 +55,15 @@ Users that prefer to work with terminals and CLIs might prefer to use the [`cryp
 
 ![](/img/crypt4gh-gui/loadkey.png)
 
-### 3. Select the file you want to encrypt
+### 4. Select the file you want to encrypt
 
 ![](/img/crypt4gh-gui/selectfile.png)
 
-### 4. Encrypt the file
+### 5. Encrypt the file
 
 ![](/img/crypt4gh-gui/encrypt.png)
 
-### 4. Continue to upload your encrypted data
+### 6. Continue to upload your encrypted data
 
 You're now ready to [upload your encrypted data](/category/upload/).
 
