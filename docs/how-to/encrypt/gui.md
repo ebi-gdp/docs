@@ -37,8 +37,8 @@ Users that prefer to work with terminals and CLIs might prefer to use the [`cryp
 
 ### 2. Download your unique public key from the platform
 
-* [View your existing sample sets](https://calculate.intervenegeneticscores.org/pgs-calculator/datasets)
-    * If you haven't created a sampleset yet, start [the data upload process](https://calculate.intervenegeneticscores.org/pgs-calculator/dataset)
+* [View your existing sample sets](https://calculate.geneticscores.org/pgs-calculator/datasets)
+    * If you haven't created a sampleset yet, start [the data upload process](https://calculate.geneticscores.org/pgs-calculator/dataset)
     * If you're unsure how to start uploading your data, check out the [data upload tutorial here](/category/upload/)
 * Click "Launch job" to view details about your existing sampleset
 * Download your public key (it will appear in your downloads folder, e.g. `INTD00000000027.pub`)
