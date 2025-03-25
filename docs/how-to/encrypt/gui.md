@@ -37,8 +37,8 @@ Users that prefer to work with terminals and CLIs might prefer to use the [`cryp
 
 ### 2. Download your unique public key from the platform
 
-* [View your existing sample sets](https://gcp.intervenegeneticscores.org/pgs-calculator/datasets)
-    * If you haven't created a sampleset yet, start [the data upload process](https://gcp.intervenegeneticscores.org/pgs-calculator/dataset)
+* [View your existing sample sets](https://calculate.geneticscores.org/pgs-calculator/datasets)
+    * If you haven't created a sampleset yet, start [the data upload process](https://calculate.geneticscores.org/pgs-calculator/dataset)
     * If you're unsure how to start uploading your data, check out the [data upload tutorial here](/category/upload/)
 * Click "Launch job" to view details about your existing sampleset
 * Download your public key (it will appear in your downloads folder, e.g. `INTD00000000027.pub`)
@@ -60,9 +60,19 @@ Users that prefer to work with terminals and CLIs might prefer to use the [`cryp
 
 ![](/img/crypt4gh-gui/selectfile.png)
 
+:::note
+* Only one file can be encrypted at a time, meaning for e.g. a triplet of .psam, .pvar and .pgen files you will need to encrypt each file one by one.
+:::
+
 ### 5. Encrypt the file
 
 ![](/img/crypt4gh-gui/encrypt.png)
+
+:::note
+* The GUI will give the error message: 'No private key supplied, temporary private key will be generated'
+* This is expected and not something to worry about.
+:::
+
 
 ### 6. Continue to upload your encrypted data
 

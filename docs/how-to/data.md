@@ -22,8 +22,8 @@ When you work with these files it's important to keep all of the files together.
 
 :::tip
 * These genomes are in genome build **GRCh38**.
-* Not all scores will work on the small HAPNEST dataset. Due to the low number of variants in the small dataset many scores will fail to pass the matching threshold.
-* For testing the platform these selections will produce results : scores PGS001994,PGS000006; traits 'Abnormality of the eye'/HP_0000478 or 'estrogen-receptor negative breast cancer'/EFO_1000650; publication PGP000002
+* Not all scores will work on the small HAPNEST dataset. Due to the low number of variants in the small dataset many scores will fail to pass the matching threshold (75%).
+* For testing the platform these selections will produce results : scores- PGS002299,PPGS004891; trait- triple negative breast cancer (EFO_0005537). 
 :::
 
 ## Other genomes

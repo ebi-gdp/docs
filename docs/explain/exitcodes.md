@@ -2,7 +2,7 @@
 
 If your pipeline workflow exits with an error the exit code will be included in your notification email.
 
-The most common type of error is a match rate error. Making sure your target genomes are [imputed and in the correct genome build](https://pgsc-calc.readthedocs.io/en/latest/explanation/match.html) normally fixes this problem.
+The most common type of error is a match rate error. On the calculation service the threshold for matching between score and target is 75%, which is the default in the PGS Catalog Calculator. Making sure your target genomes are imputed and in the correct genome build normally fixes this problem. If you are using the small synthetic HAPNEST dataset for testing, we [suggest some scores that will pass the treshold] (https://docs.geneticscores.org/how-to/data). See the [PGS Catalog Calculator documentation] for more information on variant matching (https://pgsc-calc.readthedocs.io/en/latest/explanation/match.html).
 
 If you submit a pipeline with more than one score: if any one score runs successfully the pipeline will succeed and you will recieve results and report. Consult the report to assess which of the scores ran successfully and which did not.
 
