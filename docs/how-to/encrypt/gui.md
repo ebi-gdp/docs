@@ -62,7 +62,7 @@ Users that prefer to work with terminals and CLIs might prefer to use the [`cryp
 
 :::note
 * Only one file can be encrypted at a time, meaning for e.g. a triplet of .psam, .pvar and .pgen files you will need to encrypt each file one by one.
-
+:::
 
 ### 5. Encrypt the file
 
@@ -71,7 +71,7 @@ Users that prefer to work with terminals and CLIs might prefer to use the [`cryp
 :::note
 * The GUI will give the error message: 'No private key supplied, temporary private key will be generated'
 * This is expected and not something to worry about.
-
+:::
 
 
 ### 6. Continue to upload your encrypted data
