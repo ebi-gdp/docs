@@ -28,10 +28,7 @@ When you work with these files it's important to keep all of the files together.
 
 ## Other genomes
 
-:::caution
-
-* Please do not upload sensitive data - like real sequenced genomes - to the platform
-* It's OK to upload publicly available and permissively licensed data, like [1000 Genomes](https://www.cog-genomics.org/plink/2.0/resources). Read more about [publicly available and synthetic genomes](https://methods.geneticscores.org/tutorials/synthetic.html), including the large HAPNEST dataset.
-* The platform and documentation is being **actively developed and tested.**
+* Other publicly available and permissively licensed data, like [1000 Genomes](https://www.cog-genomics.org/plink/2.0/resources), can also be used to test the calculation service.
+* Read more about [publicly available and synthetic genomes](https://methods.geneticscores.org/tutorials/synthetic.html)
 
 :::
