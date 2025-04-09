@@ -4,14 +4,6 @@ slug: /
 
 # About the `GeneticScores.org` calculation service
 
-
-:::caution
-
-* This service is not yet suitable for sensitive data. Do not upload private genomes to the platform.
-* You can use [publicly available or synthetic genomes for testing](./how-to/data.md)
-
-:::
-
 ## What does it do?
 
 This tool:
