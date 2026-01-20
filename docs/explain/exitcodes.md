@@ -2,7 +2,7 @@
 
 If your pipeline workflow exits with an error the exit code will be included in your notification email.
 
-The most common type of error is a match rate error. On the calculation service the threshold for matching between score and target is 75%, which is the default in the PGS Catalog Calculator. Making sure your target genomes are imputed and in the correct genome build normally fixes this problem. If you are using the small synthetic HAPNEST dataset for testing, we [suggest some scores that will pass the treshold] (https://docs.geneticscores.org/how-to/data). See the [PGS Catalog Calculator documentation] for more information on variant matching (https://pgsc-calc.readthedocs.io/en/latest/explanation/match.html).
+The most common type of error is a match rate error. On the calculation service the threshold for matching between score and target is 75%, which is the default in the PGS Catalog Calculator. Making sure your target genomes are imputed and in the correct genome build normally fixes this problem. If you are using the small synthetic HAPNEST dataset for testing, we [suggest some scores that will pass the threshold](https://docs.geneticscores.org/how-to/data). See the [PGS Catalog Calculator documentation](https://pgsc-calc.readthedocs.io/en/latest/explanation/match.html) for more information on variant matching.
 
 If you submit a pipeline with more than one score: if any one score runs successfully the pipeline will succeed and you will recieve results and report. Consult the report to assess which of the scores ran successfully and which did not.
 
@@ -25,7 +25,9 @@ If you submit a pipeline with more than one score: if any one score runs success
 | 19        | GenomesNotFound        | Target genomes could not be found                                                    |
 | 20        | SamplesheetFormatError | There was a problem with the structure of the input metadata                         |
 
+## Other exit codes
 
+If you see an exit code that's not in this table there was an error with an internal application (probably plink). The trace name of the crashing process can give you an idea of what went wrong. For example, exit code 3 can happen when plink2 fails to process an invalid VCF file. 
 
 ## What next?
 
