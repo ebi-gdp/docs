@@ -21,7 +21,7 @@ export default function Footer(props) {
           </li>
 
           <li class="vf-list__item">
-            <a class="vf-list__link" href="https://calculate.geneticscores.org/">Genetic score service</a>
+            <a class="vf-list__link" href="https://geneticscores.org/posts/calculation-service-retired/">Genetic score service</a>
           </li>
 
           <li class="vf-list__item">
@@ -69,10 +69,6 @@ export default function Footer(props) {
 
           <li class="vf-list__item">
             <a class="vf-list__link" href="https://docs.geneticscores.org">Documentation</a>
-          </li>
-
-          <li class="vf-list__item">
-            <a class="vf-list__link" href="https://docs.geneticscores.org/#how-do-i-get-help">Get help</a>
           </li>
 
           <li class="vf-list__item">

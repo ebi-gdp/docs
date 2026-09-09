@@ -30,6 +30,19 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.retirement-notice {
+  padding: 0.75rem 1rem;
+  background: #f7e6f7;
+  border-bottom: 4px solid #862e86;
+  color: #1d1d1d;
+  font-weight: 600;
+  text-align: center;
+}
+
+.retirement-notice a {
+  color: inherit;
+}
+
 .vf-footer {
   border-top: 8px solid #862e86;
   &::after {
